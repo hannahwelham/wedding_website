@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  margin: 0px;
+  height: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  line-height: 0.75;
+}
+
+nav {
+  position: fixed;
+  top: 25%;
+  left: 0;
+  height: 50%;
+  margin: 0 0 0 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 800;
+}
+
+.place a {
+  font-size: 8em;
+}
+
+#three a {
+  font-size: 6em;
+}
+
+#four a {
+  font-size: 4em;
+}
+
+#background-image {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*#triangle {
+  position: fixed;
+  top: 0;
+  right: -5px;
+  height: 100%;
+}*/
+
+

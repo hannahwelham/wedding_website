@@ -1,0 +1,180 @@
+
+body {
+  font-family: 'Cabin', sans-serif;  
+  margin: 0px;
+  padding-bottom: 100px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 30px 50px 30px 50px;
+  z-index: 2;
+  background-color: #fff;
+  border-bottom: solid 1px #d3d3d3;
+}
+
+.bridge-icon {
+  width: 55px;
+}
+
+.general-icon {
+   width: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  float: right;
+  text-align: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > li {
+  float: left;
+  padding: 15px 0 0 15px;
+}
+
+ul li {
+  float: right;
+  padding: 15px 0 0 15px;
+  height: 40px;
+}
+
+li a {
+  color: #5E5E5E;
+  font-weight: 800;
+  font-size: 1.25em;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+li a:hover {
+  padding-bottom: 4px;
+  border-bottom: solid 2.5px;
+}
+
+nav > li a:hover {
+  border-bottom: none;
+}
+
+.main-content {
+  position: relative;
+  display: block;
+  width: 72.5%;
+  margin: auto;
+  padding: 80px 125px 0 125px;
+  z-index: 1;
+}
+
+#sydney .main-content {
+  position: relative;
+  display: block;
+  width: 72.5%;
+  margin: auto;
+  padding: 110px 125px 0 125px;
+  z-index: 1;
+}
+
+.text-panel {
+  text-align: center;
+}
+
+.block {
+  padding: 20px 0 20px 0;
+}
+
+.text-panel a, .text-panel a:visited {
+  text-decoration: none;
+  color: #2200cc;
+}
+
+.text-panel a: hover {
+  text-decoration: underline;
+  color: #2200cc;
+}
+
+h2 {
+  color: #5E5E5E;
+  font-size: 3em;
+  text-transform: lowercase;
+  margin: 30px 0 20px 0;
+}
+
+p {
+  display: inline-block;
+  color: #5E5E5E;
+  font-size: 1.1em;
+  text-transform: lowercase;
+  font-weight: 400;
+  line-height: 1.75em;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.transport {
+  padding: 0 0 40px 0;
+}
+
+.icon {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  padding-right: 5px;
+}
+
+.map {
+  display: block;
+  width: 10%;
+  height: 300px;
+  border: none;
+  min-width: 360px;
+  padding: 30px 0 50px 0;
+  margin: auto;
+}
+
+.photo {
+  width: 100%;
+  position: relative;
+  top: 101px;  
+}
+
+.image-free-content {
+  position: relative;
+  display: block;
+  width: 72.5%;
+  margin: auto;
+  padding: 150px 125px 0 125px;
+  z-index: 1;
+  text-align: center;
+}
+
+#gifts .image-free-content {
+  position: relative;
+  display: block;
+  width: 72.5%;
+  margin: auto;
+  padding: 0 125px 0 125px;
+  z-index: 1;
+  text-align: center;
+}
+
+#photo-of-us {
+  text-align: center;
+  margin: auto;
+  padding-top: 125px;
+}
+
+#photo-of-us img {
+  height: 400px;
+}

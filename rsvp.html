@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  
+<link rel="stylesheet" href="/pages.css">
+<link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  
+</head>
+  
+<body>
+  <nav>
+    <li><a href="/index.html"><img src="/envelope.png" class="general-icon"></a></li>
+    <ul>
+      <li><a href="/gifts.html">Gifts</a></li>
+      <li><a href="/bristol.html">Bristol</a></li>
+      <li><a href="/sydney.html">Sydney</a></li>
+    </ul>
+  </nav>
+  <div class="image-free-content">
+    <div class="text">
+      <p>We really hope that you'll be able to celebrate with us in Bristol, Sydney or both! Please just let us know using the form below...</p>
+    </div>
+    <div id="rsvp-box">
+      <form method="post" action="thankyou.php">
+         <div>
+           <label for="name">Name(s)</label>
+           <input type="text" name="name">
+         </div>
+         <div>
+           <label for="location">Bristol, Sydney or both?</label>
+           <input type="text" name="location">
+         </div>
+         <div>
+           <label for="food">Any dietary issues?</label>
+           <input type="text" name="food">
+         </div>       
+         <div class="button">
+           <button type="submit" name="submit">All done!</button>
+         </div>
+       </form>
+      </div>
+  </div> 
+  </body>
+</html>
